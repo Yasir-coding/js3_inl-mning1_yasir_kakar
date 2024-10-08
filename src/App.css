@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  margin-top: 100px;
+  border-radius: 10%;
+  border: solid 10px grey;
+}
+
+h2 {
+  color: white;
+}
+
+h1 {
+  color: rgba(194, 194, 194, 0.854);
+  font-size: 90px;
+  border-bottom: solid red 2px;
+
+  border-top: solid red 2px;
+  margin-top: 150px;
+  width: 90%;
+}
+
+.brace {
+  width: 30%;
+  height: 100px;
+  margin-top: 120px;
+  background-color: black;
+  border: solid 10px grey;
+  border-radius: 5px;
+}
